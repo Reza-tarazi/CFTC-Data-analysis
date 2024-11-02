@@ -30,7 +30,13 @@ cot_info = {}
 for i in PAIR:
     make_dictionary(i,cot_info)
 '''
-
+#=========================================================
+#we creat text to see what we do and change our data
+f = open("Data-first-edition.txt", "a")
+f.write(str(lines)+"\n""\n"+str(PAIR))
+f.close()
+#=========================================================
+browser.quit()
 print(lines)
 print(PAIR)
 print("OK remove")
