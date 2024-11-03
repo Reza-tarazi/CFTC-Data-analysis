@@ -32,11 +32,21 @@ for i in PAIR:
 '''
 #=========================================================
 #we creat text to see what we do and change our data
-f = open("Data-first-edition.txt", "a")
+f = open("AllData-first-edition.txt", "a")
 f.write(str(lines)+"\n""\n"+str(PAIR))
 f.close()
 #=========================================================
+# we collect the name of pairs to another text file
+f = open("Data-first-edition.txt", "a")
+text = "Pair:" +"\n""\n"
+for i in range(6, len(lines)-1, 17):
+    dash_index2 = lines[i].find("- ")
+    key = lines[i][:dash_index2].strip()
+    text+= str(key)+"\n""\n"
+    
+
+f.write(text)
+f.close()
+#=========================================================
 browser.quit()
-print(lines)
-print(PAIR)
 print("OK remove")
