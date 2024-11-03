@@ -3,11 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 import datetime
 import time
-import telegram
-import asyncio
-from bs4 import BeautifulSoup
-import requests
-import telegram
 import asyncio
 #====================
 
