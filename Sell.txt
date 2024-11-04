@@ -1,0 +1,14 @@
+CFTC-Sell-filters
+
+                                Long_AssetManager  Short_AssetManager  Long_Leveraged  Short_Leveraged
+CANADIAN DOLLAR                             663.0              5283.0         -2793.0          14049.0
+JAPANESE YEN                              -2178.0             10614.0          -878.0           9186.0
+EURO FX                                   -4306.0             -1563.0          -958.0          20489.0
+BRAZILIAN REAL                              703.0              5853.0          -976.0           -240.0
+DJIA Consolidated                         -2932.0               -68.0         -1068.0            234.0
+DJIA x $5                                 -2932.0               -68.0         -1068.0            234.0
+E-MINI S&P CONSU STAPLES INDEX              136.0               732.0             0.0             37.0
+E-MINI S&P FINANCIAL INDEX                -2266.0                 0.0             0.0              9.0
+RUSSELL E-MINI                            -6232.0              -365.0         -9086.0          -4176.0
+FED FUNDS                                  5450.0              8732.0         39737.0          46301.0
+EURO SHORT TERM RATE                        -84.0                77.0          -867.0            902.0
