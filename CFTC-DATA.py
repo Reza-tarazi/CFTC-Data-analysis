@@ -104,8 +104,9 @@ Selldata_str_with_index = sell.to_string(index=True)
 # Print & SaveText the string with index
 print(Selldata_str_with_index)
 selltext= "CFTC-Sell-filters"+"\n""\n"
+selltext += Selldata_str_with_index
 f = open("Sell.txt", "a")   
-f.write(Selldata_str_with_index)
+f.write(selltext)
 f.close()
 #=========================================================
 #======================Buy_Signals=========================
@@ -117,8 +118,9 @@ Buydata_str_with_index = buy.to_string(index=True)
 # Print & SaveText the string with index
 print(Buydata_str_with_index)
 buytext= "CFTC-Buy-filters"+"\n""\n"
+buytext += Buydata_str_with_index
 f = open("Buy.txt", "a")   
-f.write(Buydata_str_with_index)
+f.write(buytext)
 f.close()
 
 
