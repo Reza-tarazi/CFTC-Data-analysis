@@ -1,0 +1,9 @@
+CFTC-Buy-filters
+
+                               Long_AssetManager  Short_AssetManager  Long_Leveraged  Short_Leveraged
+SO AFRICAN RAND                            513.0               287.0           102.0           -507.0
+MICRO E-MINI NASDAQ-100 INDEX                7.0              -223.0         14014.0           9500.0
+S&P 500 ANNUAL DIVIDEND INDEX             1213.0                 0.0           322.0           -315.0
+UST BOND                                 19089.0             -1771.0         40518.0          25272.0
+UST 10Y NOTE                             27629.0              7962.0        -25524.0         -88097.0
+MICRO 10 YEAR YIELD                          0.0               -25.0           524.0             26.0
